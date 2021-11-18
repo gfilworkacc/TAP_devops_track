@@ -1,0 +1,10 @@
+[Unit]
+Description=lab demo target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/whatever.sh 
+RemainAfterExit=yes
+
+[Install]
+WantedBy=graphical.target
