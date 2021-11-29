@@ -1,0 +1,839 @@
+dir_1/dir_1/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_1/dir_1/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_1/dir_10/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_1/dir_10/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_1/dir_2/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_1/dir_2/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_1/dir_3/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_1/dir_3/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_1/dir_4/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_1/dir_4/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_1/dir_5/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_1/dir_5/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_1/dir_6/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_1/dir_6/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_1/dir_7/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_1/dir_7/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_1/dir_8/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_1/dir_8/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_1/dir_9/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_1/dir_9/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_2/dir_1/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_2/dir_1/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_2/dir_10/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_2/dir_10/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_2/dir_2/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_2/dir_2/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_2/dir_3/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_2/dir_3/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_2/dir_4/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_2/dir_4/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_2/dir_5/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_2/dir_5/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_2/dir_6/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_2/dir_6/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_2/dir_7/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_2/dir_7/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_2/dir_8/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_2/dir_8/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_2/dir_9/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_2/dir_9/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_3/dir_1/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_3/dir_1/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_3/dir_10/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_3/dir_10/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_3/dir_2/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_3/dir_2/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_3/dir_3/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_3/dir_3/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_3/dir_4/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_3/dir_4/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_3/dir_5/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_3/dir_5/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_3/dir_6/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_3/dir_6/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_3/dir_7/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_3/dir_7/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_3/dir_8/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_3/dir_8/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_3/dir_9/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_3/dir_9/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_4/dir_1/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_4/dir_1/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_4/dir_10/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_4/dir_10/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_4/dir_2/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_4/dir_2/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_4/dir_3/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_4/dir_3/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_4/dir_4/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_4/dir_4/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_4/dir_5/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_4/dir_5/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_4/dir_6/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_4/dir_6/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_4/dir_7/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_4/dir_7/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_4/dir_8/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_4/dir_8/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_4/dir_9/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_4/dir_9/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_5/dir_1/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_5/dir_1/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_5/dir_10/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_5/dir_10/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_5/dir_2/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_5/dir_2/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_5/dir_3/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_5/dir_3/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_5/dir_4/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_5/dir_4/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_5/dir_5/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_5/dir_5/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_5/dir_6/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_5/dir_6/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_5/dir_7/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_5/dir_7/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_5/dir_8/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_5/dir_8/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_5/dir_9/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_5/dir_9/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_6/dir_1/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_6/dir_1/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_6/dir_10/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_6/dir_10/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_6/dir_2/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_6/dir_2/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_6/dir_3/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_6/dir_3/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_6/dir_4/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_6/dir_4/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_6/dir_5/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_6/dir_5/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_6/dir_6/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_6/dir_6/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_6/dir_7/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_6/dir_7/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_6/dir_8/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_6/dir_8/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_6/dir_9/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_6/dir_9/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_7/dir_1/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_7/dir_1/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_7/dir_10/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_7/dir_10/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_7/dir_2/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_7/dir_2/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_7/dir_3/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_7/dir_3/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_7/dir_4/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_7/dir_4/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_7/dir_5/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_7/dir_5/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_7/dir_6/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_7/dir_6/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_7/dir_7/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_7/dir_7/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_7/dir_8/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_7/dir_8/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_7/dir_9/dir_1:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
+
+dir_7/dir_9/dir_2:
+total 0
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_1
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_2
+-rw-r--r-- 1 root root 0 Nov 29 13:57 file_3
