@@ -1,0 +1,5 @@
+MAC address - 06:1f:ec:bb:7d:5c
+ip address -172.31.42.216/20
+default gateway - 172.31.32.1
+Port on which the web server is listening: 8080
+Number of host on the network : 4094
