@@ -18,17 +18,7 @@ sleep 1
 (echo -n "Port on which the web server is listening: " && ss -4nl | grep 8080 | cut -d: -f2 | cut -d" " -f1) >> "$information_file"
 
 mask=$(ip addr show eth0 | awk 'NR == 3 {print "ip address -" $2}' | cut -d"/" -f2)
-if [[ "$mask" -gt 16 ]] && [[ "$mask" -lt 24 ]]
-then
-	power=$(echo $(( 24 - $mask )))
-	hosts=$(echo $(( ( 2 ** $power * 256 ) - 2)))
-       	echo "Number of host on the network : $hosts" >> "$information_file"
-fi
+power=$(echo $(( 32 - $mask )))
+hosts=$(echo $(( ( 2 ** $power ) - 2)))
+echo "Number of host on the network : $hosts" >> "$information_file"
 	
-if [[ "$mask" -gt 24 ]] && [[ "$mask" -lt 32 ]]
-then
-	power=$(echo $(( 32 - $mask )))
-	hosts=$(echo $(( ( 2 ** $power * 256 ) - 2)))
-       	echo "Number of host on the network : $hosts" >> "$information_file"	
-fi
-
