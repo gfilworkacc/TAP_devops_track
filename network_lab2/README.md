@@ -1,6 +1,6 @@
-#Network lab2
+# Network lab2
 
-##Run script "net_lab2.sh" to start launch python3 http server and gather information
+## Run script "net_lab2.sh" to start launch python3 http server and gather information
 ```bash
 #!/usr/bin/env bash
 ps aux | grep "http.server" | grep -v grep | awk '{print $2}' | xargs sudo kill -9
@@ -20,7 +20,7 @@ hosts=$(echo $(( ( 2 ** $power ) - 2)))
 echo "Number of host on the network : $hosts" >> "$information_file"
 ```
 
-##Install nginx on ec2
+## Install nginx on ec2
 
 ```bash
 sudo amazon-linux-extras enable nginx1
@@ -29,7 +29,7 @@ sudo yum install -y nginx
 nginx -v
 ```
 
-##Configure nginx
+## Configure nginx
 
 Change nginx configuration to listen from port 80 to port 8080 by editing /etc/nginx/nginx.conf:
 
@@ -78,7 +78,7 @@ sudo nginx -t
 sudo systemctl enable --now nginx.service
 ```
 
-##Test the reverse proxy
+## Test the reverse proxy
 
 Set tcpdump to listen on localhost port 80, curl for content from the local machine and stop tcpdump after that:
 
