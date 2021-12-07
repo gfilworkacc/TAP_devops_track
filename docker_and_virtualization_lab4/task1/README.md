@@ -1,4 +1,4 @@
-# Docker and virtualization lab4
+# Docker and virtualization lab4 - task1
 
 ## Create hello.py and  Dockerfile files in a common directory with the following content:
 

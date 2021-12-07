@@ -1,4 +1,4 @@
-# Docker and virtualization lab8
+# Docker and virtualization lab4 - task5
 
 ## Simple script to start the alpine base image in detached mode, prints the container ID, stops the container and remove it.
 

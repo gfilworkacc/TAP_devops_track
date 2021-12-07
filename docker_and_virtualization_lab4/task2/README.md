@@ -1,6 +1,6 @@
-# Docker and virtualization lab5
+# Docker and virtualization lab4 - task2:
 
-## Copy hello.py from lab 4 and create Dockerfile file in the same directory with the following content:
+## Copy hello.py from task 1 and create Dockerfile file in the same directory with the following content:
 
 ```bash
 FROM alpine
