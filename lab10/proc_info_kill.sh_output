@@ -1,0 +1,6 @@
+Kernel context switches:
+voluntary - 1
+nonvoluntary - 0
+
+Maxmimum number of virtual memory the process has consumed:
+3628 kB
