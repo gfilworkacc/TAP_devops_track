@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+while read line
+	do	
+		mnt_point=$(echo "$line" | cut -d " " -f1)
+		util=$(echo "$line" | cut -d " " -f2)
+			case $util in
+				[0-20])
+					echo "$mnt_point Low"
+				;;
+				[21-40])
+					echo "$mnt_point Average"
+				;;
+				[41-60])
+					echo "$mnt_point High"
+				;;
+				[61-90])
+					echo "$mnt_point Warning"
+				;;
+				[91-100])
+					echo "$mnt_point Danger"
+				;;
+			esac
+	done <<< $(df -h | awk 'NR >1 {print $6" "$5}' | tr -d "%")
