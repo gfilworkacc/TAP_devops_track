@@ -24,7 +24,7 @@ CMD ["ls -l hello.py"]
 ## Build the image with arguments and run it in a container
 
 ```bash
-docker build --build-arg username=Georgi --build-arg group=interns -t alpine_with_bash .
+docker build --build-arg username=Georgi --build-arg group=interns -t test_arg:Georgi.interns .
 
-docker run alpine_with_bash
+docker run test_arg:Georgi.interns
 ```
