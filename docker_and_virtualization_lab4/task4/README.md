@@ -1,4 +1,4 @@
-# Docker and virtualization lab4 - task7
+# Docker and virtualization lab4 - task4
 
 ## Optimized test_arg image by merging 3 RUN instructions into 1:
 
