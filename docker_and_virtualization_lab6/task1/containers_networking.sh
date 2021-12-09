@@ -1,54 +1,37 @@
 #!/usr/bin/env bash
 
-#Create bridge networks
+#Arrays
+containers=(alpine1 alpine2 alpine3)
+networks=(net1 net2)
 
-for n in 1 2
+#Create bridge networks
+for net in "${networks[@]}"
 do
-	docker network create net"$n"
+	docker network create "$net"
 done
 
 #Create 3 containers based on alpine
-
-for c in 1 2 3
+for name in ${containers[@]}
 do
-	docker run --name alpine"$c" -dit alpine:latest 
+	docker run --name "$name" -dit alpine:latest 
 done
 
 #Connect containers to the networks
-
-for c in 1 2
+for name in ${containers[@]:0:2}
 do
-	docker network connect net1 alpine"$c" 
+	docker network connect ${networks[0]} "$name"
 done
 
-for c in 2 3
+for name in ${containers[@]:1:2}
 do
-	docker network connect net2 alpine"$c" 
+	docker network connect ${networks[1]} "$name"
 done
 
-#Check connectivity between containers and output to file
-
-for c in 1 2 3
-do
-	for d in 1 2 3
+#IP addresses
+echo
+for id in 1 2 3 
 	do
-		if [[ "$c" -eq "$d" ]]
-		then
-			echo -e "\n===============================================================" >> "$0"_output
-			echo -e "Ignoring ping request from alpine$c to alpine$d - same container." >> "$0"_output
-			echo
-			continue
-		else
-			if docker exec alpine"$c" ping -c 1 alpine"$d" &>/dev/null
-			then
-				echo -e "\n==================================================" >> "$0"_output
-				echo -e "Container alpine$d is accessable from alpine$c. POC:\n" >> "$0"_output
-				docker exec alpine"$c" ping -c 1 alpine"$d" 1>> "$0"_output
-			else
-				echo -e "\n======================================================" >> "$0"_output
-				echo -e "Container alpine$d is NOT accessable from alpine$c. POC:\n" >> "$0"_output
-				docker exec alpine"$c" ping -c 1 alpine"$d" 2>> "$0"_output
-			fi
-		fi
+		echo "Container alpine"$id" has the following IP addresses:" 
+		docker container inspect alpine"$id" | jq ' .[].NetworkSettings.Networks | .bridge.IPAddress, .net1.IPAddress, .net2.IPAddress' | sed -e 's/"//g' -e 's/null//g' -e' /^$/d'
+		echo
 	done
-done

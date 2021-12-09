@@ -1,119 +1,66 @@
 # Docker and virtualization lab6 - task1
 
 ## Run script containers_networking.sh to generate all steps:
+
 ```bash
 #!/usr/bin/env bash
 
-#Create bridge networks
+#Arrays
+containers=(alpine1 alpine2 alpine3)
+networks=(net1 net2)
 
-for n in 1 2
+#Create bridge networks
+for net in "${networks[@]}"
 do
-	docker network create net"$n"
+	docker network create "$net"
 done
 
 #Create 3 containers based on alpine
-
-for c in 1 2 3
+for name in ${containers[@]}
 do
-	docker run --name alpine"$c" -dit alpine:latest 
+	docker run --name "$name" -dit alpine:latest 
 done
 
 #Connect containers to the networks
-
-for c in 1 2
+for name in ${containers[@]:0:2}
 do
-	docker network connect net1 alpine"$c" 
+	docker network connect ${networks[0]} "$name"
 done
 
-for c in 2 3
+for name in ${containers[@]:1:2}
 do
-	docker network connect net2 alpine"$c" 
+	docker network connect ${networks[1]} "$name"
 done
 
-#Check connectivity between containers and output to file
-
-for c in 1 2 3
-do
-	for d in 1 2 3
+#IP addresses
+echo
+for id in 1 2 3 
 	do
-		if [[ "$c" -eq "$d" ]]
-		then
-			echo "Ignoring ping request from alpine$c to alpine$d - same container." >> "$0"_output
-			echo
-			continue
-		else
-			if docker exec alpine"$c" ping -c 1 alpine"$d" &>/dev/null
-			then
-				echo -e "\nContainer alpine$d is accessable from alpine$c. POC:\n" >> "$0"_output
-				docker exec alpine"$c" ping -c 1 alpine"$d" 1>> "$0"_output
-			else
-				echo -e "\nContainer alpine$d is NOT accessable from alpine$c. POC:\n" >> "$0"_output
-				docker exec alpine"$c" ping -c 1 alpine"$d" 2>> "$0"_output
-			fi
-		fi
+		echo "Container alpine"$id" has the following IP addresses:" 
+		docker container inspect alpine"$id" | jq ' .[].NetworkSettings.Networks | .bridge.IPAddress, .net1.IPAddress, .net2.IPAddress' | sed -e 's/"//g' -e 's/null//g' -e' /^$/d'
+		echo
 	done
-done
 ```
 
 ## Output:
 
 ```bash
-===============================================================
-Ignoring ping request from alpine1 to alpine1 - same container.
+2a012bda9425c86c0bcc074ea8177a79edc2cc5811aa3d36a5a8339b16f9ea19
+32853ceaa8e0401e626322345d54285eedfb6e1366fd80c671b0337fe93609ca
+f772a6359f6cbd7702868345b705221053a0c274ed78883a86bb348ba5226115
+deeceb9de5de07690862daebcfb139ebea4bac03053887f41a43d33b5e6ea87f
+501f4b8ab4104fc2d61a13429c883c96772f9b7d8194be414e1fb7e3b71e0cc2
 
-==================================================
-Container alpine2 is accessable from alpine1. POC:
+Container alpine1 has the following IP addresses:
+172.17.0.2
+172.22.0.2
 
-PING alpine2 (192.168.80.3): 56 data bytes
-64 bytes from 192.168.80.3: seq=0 ttl=64 time=0.084 ms
+Container alpine2 has the following IP addresses:
+172.17.0.3
+172.22.0.3
+172.23.0.2
 
---- alpine2 ping statistics ---
-1 packets transmitted, 1 packets received, 0% packet loss
-round-trip min/avg/max = 0.084/0.084/0.084 ms
-
-======================================================
-Container alpine3 is NOT accessable from alpine1. POC:
-
-ping: bad address 'alpine3'
-
-==================================================
-Container alpine1 is accessable from alpine2. POC:
-
-PING alpine1 (192.168.80.2): 56 data bytes
-64 bytes from 192.168.80.2: seq=0 ttl=64 time=0.080 ms
-
---- alpine1 ping statistics ---
-1 packets transmitted, 1 packets received, 0% packet loss
-round-trip min/avg/max = 0.080/0.080/0.080 ms
-
-===============================================================
-Ignoring ping request from alpine2 to alpine2 - same container.
-
-==================================================
-Container alpine3 is accessable from alpine2. POC:
-
-PING alpine3 (192.168.96.3): 56 data bytes
-64 bytes from 192.168.96.3: seq=0 ttl=64 time=0.085 ms
-
---- alpine3 ping statistics ---
-1 packets transmitted, 1 packets received, 0% packet loss
-round-trip min/avg/max = 0.085/0.085/0.085 ms
-
-======================================================
-Container alpine1 is NOT accessable from alpine3. POC:
-
-ping: bad address 'alpine1'
-
-==================================================
-Container alpine2 is accessable from alpine3. POC:
-
-PING alpine2 (192.168.96.2): 56 data bytes
-64 bytes from 192.168.96.2: seq=0 ttl=64 time=0.071 ms
-
---- alpine2 ping statistics ---
-1 packets transmitted, 1 packets received, 0% packet loss
-round-trip min/avg/max = 0.071/0.071/0.071 ms
-
-===============================================================
-Ignoring ping request from alpine3 to alpine3 - same container.
+Container alpine3 has the following IP addresses:
+172.17.0.4
+172.23.0.3
 ```

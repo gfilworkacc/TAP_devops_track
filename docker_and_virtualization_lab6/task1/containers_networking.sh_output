@@ -1,59 +1,19 @@
+2a012bda9425c86c0bcc074ea8177a79edc2cc5811aa3d36a5a8339b16f9ea19
+32853ceaa8e0401e626322345d54285eedfb6e1366fd80c671b0337fe93609ca
+f772a6359f6cbd7702868345b705221053a0c274ed78883a86bb348ba5226115
+deeceb9de5de07690862daebcfb139ebea4bac03053887f41a43d33b5e6ea87f
+501f4b8ab4104fc2d61a13429c883c96772f9b7d8194be414e1fb7e3b71e0cc2
 
-===============================================================
-Ignoring ping request from alpine1 to alpine1 - same container.
+Container alpine1 has the following IP addresses:
+172.17.0.2
+172.22.0.2
 
-==================================================
-Container alpine2 is accessable from alpine1. POC:
+Container alpine2 has the following IP addresses:
+172.17.0.3
+172.22.0.3
+172.23.0.2
 
-PING alpine2 (192.168.80.3): 56 data bytes
-64 bytes from 192.168.80.3: seq=0 ttl=64 time=0.084 ms
+Container alpine3 has the following IP addresses:
+172.17.0.4
+172.23.0.3
 
---- alpine2 ping statistics ---
-1 packets transmitted, 1 packets received, 0% packet loss
-round-trip min/avg/max = 0.084/0.084/0.084 ms
-
-======================================================
-Container alpine3 is NOT accessable from alpine1. POC:
-
-ping: bad address 'alpine3'
-
-==================================================
-Container alpine1 is accessable from alpine2. POC:
-
-PING alpine1 (192.168.80.2): 56 data bytes
-64 bytes from 192.168.80.2: seq=0 ttl=64 time=0.080 ms
-
---- alpine1 ping statistics ---
-1 packets transmitted, 1 packets received, 0% packet loss
-round-trip min/avg/max = 0.080/0.080/0.080 ms
-
-===============================================================
-Ignoring ping request from alpine2 to alpine2 - same container.
-
-==================================================
-Container alpine3 is accessable from alpine2. POC:
-
-PING alpine3 (192.168.96.3): 56 data bytes
-64 bytes from 192.168.96.3: seq=0 ttl=64 time=0.085 ms
-
---- alpine3 ping statistics ---
-1 packets transmitted, 1 packets received, 0% packet loss
-round-trip min/avg/max = 0.085/0.085/0.085 ms
-
-======================================================
-Container alpine1 is NOT accessable from alpine3. POC:
-
-ping: bad address 'alpine1'
-
-==================================================
-Container alpine2 is accessable from alpine3. POC:
-
-PING alpine2 (192.168.96.2): 56 data bytes
-64 bytes from 192.168.96.2: seq=0 ttl=64 time=0.071 ms
-
---- alpine2 ping statistics ---
-1 packets transmitted, 1 packets received, 0% packet loss
-round-trip min/avg/max = 0.071/0.071/0.071 ms
-
-===============================================================
-Ignoring ping request from alpine3 to alpine3 - same container.
