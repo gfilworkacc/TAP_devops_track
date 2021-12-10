@@ -1,0 +1,27 @@
+1. Write a shell script that:
+   a) creates bridge networks net1 and net2
+   b) creates 3 containers based on alpine, named alpine1, alpine2, alpine3
+   c) after containers are started, connects alpine1 and alpine2 to net1, alpine2 and alpine3 to net2
+   d) executes ping from each container on each container
+Can alpine1 and alpine3 ping each other?
+
+
+2. In app directory, you will find two files: app.py and requirements.txt
+
+    Write Dockerfile that:
+   - builds on python base image
+   - defines environment variables FLASK_APP=app.py and FLASK_RUN_HOST=0.0.0.0
+   - installs dependencies gcc, musl-dev, linuxheaders
+   - copies files app.py and requirements.txt to directory /code
+   - install application dependencies (pip install -r requirements.txt)
+   - expose port 5000
+   - executes "flask run" on container start
+
+   Write docker-compose.yml, that defines two services:
+     a) in-memory DB redis (you can use redis:alpine image)
+     b) Web service based on Dockerfile from previous step
+        - service should map port 5000 to 5000
+        - mount volume redis-app to /code directory
+        - set environment variable FLASK_ENV=development
+
+   With `docker compose up`, verify your configuration.
