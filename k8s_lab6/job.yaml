@@ -1,0 +1,19 @@
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: task-6-job
+spec:
+  completions: 10
+  completionMode: Indexed
+  template:
+    metadata:
+      name: task-6-job
+    spec:
+      containers:
+      - name: task-6-job
+        image: busybox:stable
+        command: ["/bin/sh", "-c"]
+        args:
+          - echo Container is up on $(date +%d/%m/%Y) at $(date +%T).
+      restartPolicy: Never
