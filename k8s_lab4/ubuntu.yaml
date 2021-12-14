@@ -1,0 +1,19 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ubuntu-task-server
+spec:
+  replicas: 6
+  selector:
+    matchLabels:
+      app: ubuntu-task-server
+  template:
+    metadata:
+      labels:
+        app: ubuntu-task-server
+    spec:
+      containers:
+        - name: ubuntu-task-server
+          image: ubuntu:20.04
+          command:  ["/bin/sleep",  "365d"]
