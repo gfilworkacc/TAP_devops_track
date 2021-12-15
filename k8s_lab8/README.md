@@ -166,6 +166,17 @@ metadata:
   selfLink: ""
 ```
 
+## Information from top:
+
+```bash
+kubectl top pod -n lab8-pod lab8-pod
+```
+
+```bash
+NAME       CPU(cores)   MEMORY(bytes)   
+lab8-pod   78m          150Mi           
+```
+
 ## Starting the minikube dashboard in the background. For the rest of the results, please look at the png files.
 
 ```bash
