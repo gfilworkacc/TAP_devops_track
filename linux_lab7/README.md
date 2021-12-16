@@ -1,3 +1,12 @@
+# Linux lab 7:
+# Create a bash script which does the following:<br/>
+# - If run without arguments or with ""--help"" should print the script's usage;<br/> 
+# - If executed with one argument, should delete all files with size 0 in the folder name passed as argument;<br/>
+# - If executed with two arguments, should create a folder with name equal to the first argument in which number of files equal to the second argument should be created. <br/>
+
+## Script content:
+
+```bash
 #!/usr/bin/env bash
 if [[ $# -gt 2 ]] 
 then
@@ -43,4 +52,15 @@ then
 	echo "Printing $inputed_directory content:"
 	/bin/ls -l "$inputed_directory" | tee /root/"$0"_output_results
 fi
-	
+```
+
+## Results:
+
+```bash
+total 0
+-rw-r--r-- 1 root root 0 Dec 16 13:34 1.file
+-rw-r--r-- 1 root root 0 Dec 16 13:34 2.file
+-rw-r--r-- 1 root root 0 Dec 16 13:34 3.file
+-rw-r--r-- 1 root root 0 Dec 16 13:34 4.file
+-rw-r--r-- 1 root root 0 Dec 16 13:34 5.file
+```
