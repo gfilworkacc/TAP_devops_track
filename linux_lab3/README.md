@@ -1,4 +1,7 @@
-# Linux lab03 - extracting all upd services with debug string from /etc/services, formating them and output them to two files.
+# Linux lab 3:
+# Extract all udp-type services from /etc/services which contain in some form the word "debug" in their comments.<br/>
+# Create a new file from such services with format \<svc-port> \<svc-name> with the name udp.debug. <br/>
+# Put the two services with the highest port number in a new file called udp.high.<br/>
 
 ## Script content:
 
