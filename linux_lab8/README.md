@@ -1,8 +1,17 @@
-# Linux lab08 
+# Linux lab 8:<br/>
+# Create a bash script which does the following:<br/>
+# Analyzes the output of df -h command and prints \<mountpoint> \<utilization> for every mountpoint in the system as follows:<br/>
+# If the utilization is between 0 and 20% to print Low<br/>
+# If the utilization is between 20 and 40% to print Average<br/>
+# If the utilization is between 40 and 60% to print High<br/>
+# If the utilization is between 60 and 90% to print Warning<br/>
+# If the utilization is greather than 90% to print Danger<br/>
 
-## When the script is executed with if-elif-fi statement is shows all the mount points properly.
+# Example:
+# /tmp Low
+# /root High
 
-### Working version shows the / mount point properly:
+## Working version shows the / mount point properly:
 
 ```bash
 #!/usr/bin/env bash
@@ -29,7 +38,8 @@ while read line
 		fi
 	done <<< $(df -h | awk 'NR >1 {print $6" "$5}' | tr -d "%")
 ```
-### Not working version with case statement is not showing / mount point properly:
+
+## Not working version with case statement is not showing / mount point properly:
 
 ```bash
 #!/usr/bin/env bash
