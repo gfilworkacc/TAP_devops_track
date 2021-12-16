@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-grep "^[a-z-]*debug[a-z]*" /etc/services | grep -i "# .*debug" | grep tcp > /root/tcp.debug
+grep -i ^[a-z-]*debug.*/tcp.*#.*debug /etc/services > tcp.debug
