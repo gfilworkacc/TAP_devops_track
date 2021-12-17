@@ -1,0 +1,93 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: volume-task
+---
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: volume-task
+  name: mysql-service
+spec:
+  selector:
+    app:  mysql
+  ports:
+    - protocol: TCP
+      port: 3306
+      targetPort: 3306
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  namespace: volume-task
+  name: volume-task
+  labels:
+    type: local
+spec:
+  storageClassName: manual
+  capacity:
+    storage: 2Gi
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+    path: "/mnt/volume-task"
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  namespace: volume-task
+  name: claim-volume
+spec:
+  storageClassName: manual
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 2Gi
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mysql-deploy
+  namespace: volume-task
+  labels:
+    app: mysql
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mysql
+  template:
+    metadata:
+      labels:
+        app: mysql
+    spec:
+      containers:
+      - name: mysql
+        image: mysql:8
+        env:
+        - name: MYSQL_ROOT_PASSWORD
+          value: passwd
+        ports:
+          - containerPort:  3306
+            name: mysql
+        volumeMounts:
+        - name: claim-volume
+          mountPath: /var/lib/mysql
+      volumes:
+        - name: claim-volume
+          persistentVolumeClaim:
+            claimName: claim-volume
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nc
+  namespace: volume-task
+spec:
+  containers:
+  - name: nc
+    image: subfuzion/netcat
+    args: ["-vz", "mysql-service", "3306"]
+  restartPolicy: OnFailure
