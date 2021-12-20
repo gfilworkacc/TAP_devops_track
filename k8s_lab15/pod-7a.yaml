@@ -1,0 +1,31 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: task-15
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: task-15
+  namespace: task-15
+data:
+  MY_HOST: "google.com"
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: task-15a
+  namespace: task-15
+spec:
+  containers:
+    - name: task-15
+      image: agw7uwh2tivf45vcjrb9vmoeog/task-15:latest
+      env:
+        - name: MY_HOST
+          valueFrom:
+            configMapKeyRef:
+              name: task-15
+              key: MY_HOST
+      command: ["bash", "-c"]
+      args: ["export MY_HOST=$MY_HOST && env | grep -i my_host && echo && /script/loop-script.sh"]
