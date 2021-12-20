@@ -37,6 +37,7 @@ CMD ["bash", "/script/loop-script.sh"]
 ```
 
 ## Step 4 - tag and push the image to the repository:
+
 ```bash
 docker tag task-15:latest agw7uwh2tivf45vcjrb9vmoeog/task-15:latest
 docker push agw7uwh2tivf45vcjrb9vmoeog/task-15:latest
