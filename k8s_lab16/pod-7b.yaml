@@ -1,0 +1,25 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: task-16
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: task-16b
+  namespace: task-16
+spec:
+  containers:
+    - name: task-16b
+      image: agw7uwh2tivf45vcjrb9vmoeog/task-15:latest
+      command: ["bash", "-c"]
+      args: ["export MY_HOST=$(cat /root/config/MY_HOST) && printenv | grep -i my_host && echo && /script/loop-script.sh"]
+      volumeMounts:
+        - name: config
+          mountPath: "/root/config/"
+          readOnly: true
+  volumes:
+  - name: config
+    secret:
+      secretName: task-16
