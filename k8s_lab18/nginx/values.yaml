@@ -1,0 +1,9 @@
+namespace: test
+
+config_var: 5
+
+secret_var: 6
+
+image:
+  repository: nginx
+  tag: "latest"
