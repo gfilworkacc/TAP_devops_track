@@ -88,7 +88,7 @@ TEST SUITE: None
 ```
 
 ```bash
-pod=$(kubectl get pods -n test | awk NR == 2 {print }) && kubectl exec -n test $pod -- printenv | grep "^myvar"
+pod=$(kubectl get pods -n test | awk 'NR == 2 {print $1}') && kubectl exec -n test $pod -- printenv | grep "^myvar"
 ```
 
 ```bash
