@@ -20,8 +20,7 @@ minikube-m02	192.168.49.3
 ```bash
 kubectl taint node minikube-m02 pod=no:NoSchedule
 ```
-
-## Pod yaml configuration:
+## Pod with same key and value yaml configuration:
 
 ```bash
 apiVersion: v1
@@ -36,6 +35,26 @@ spec:
     image: nginx:stable
   tolerations:
   - key: "pod"
+    operator: "Equal"
+    value: "no"
+    effect: "NoSchedule"
+```
+
+## Pod with same key existing yaml configuration:
+
+```bash
+apiVersion: v1
+kind: Pod
+metadata:
+  name: redis
+  labels:
+    env: test
+spec:
+  containers:
+  - name: redis
+    image: redis:stable
+  tolerations:
+  - key: "pod"
     operator: "Exists"
     effect: "NoSchedule"
 ```
@@ -43,10 +62,17 @@ spec:
 ## Results:
 
 ```bash
-kubectl get pod nginx -o json | jq '.spec | .nodeName, .tolerations[0]'
+for pod in nginx redis; do kubectl get pod $pod -o json | jq '.spec | .nodeName, .tolerations[0]';done 
 ```
 
 ```bash
+"minikube-m02"
+{
+  "effect": "NoSchedule",
+  "key": "pod",
+  "operator": "Equal",
+  "value": "no"
+}
 "minikube-m02"
 {
   "effect": "NoSchedule",
