@@ -7,7 +7,9 @@ metadata:
 spec:
   containers:
   - name: redis
-    image: redis:stable
+    image: redis:latest
+    ports:
+    - containerPort: 6379
   tolerations:
   - key: "pod"
     operator: "Exists"
