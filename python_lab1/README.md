@@ -17,11 +17,9 @@ print(letterlist_as_set)
 #!/usr/bin/env python3
 wordlist = ['cat','dog','rabbit']
 letterlist = []
-for word in wordlist:
-    for letter in word:
-        letterlist.append(letter)
-letterlist_as_set = set(letterlist)
-print(letterlist_as_set)
+letterlist = [[letter for letter in word] for word in wordlist] 
+letterlist = [each for letter in letterlist for each in letter] 
+print(set(letterlist))
 ```
 
 ## 2. Write a Python program to change Brad’s salary to 8500 in brad.py.
