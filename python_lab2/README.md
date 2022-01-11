@@ -124,8 +124,8 @@ class Connector:
         return self.togate
 
 
-'''TODO implement
-NandGates work like AndGates that have a Not attached to the output.'''
+#TODO: implement
+#NandGates work like AndGates that have a Not attached to the output.
 class NandGate(BinaryGate):
 
    def __init__(self, name):
@@ -140,8 +140,8 @@ class NandGate(BinaryGate):
        else:
            return 1
 
-'''TODO implement
-NorGates work lake OrGates that have a Not attached to the output.'''
+#TODO: implement
+#NorGates work lake OrGates that have a Not attached to the output.
 class NorGate(BinaryGate):
 
    def __init__(self, name):
@@ -156,6 +156,20 @@ class NorGate(BinaryGate):
        else:
            return 0
 
+class XorGate(BinaryGate):
+
+    def __init__(self, name):
+        BinaryGate.__init__(self, name)
+
+    def performGateLogic(self):
+
+        a = self.getPinA()
+        b = self.getPinB()
+        if a==0 or b==0 or a==1 and b==1:
+            return 0
+        else:
+            return 1
+
 def main():
    g1 = AndGate("G1")
    g2 = AndGate("G2")
@@ -168,11 +182,11 @@ def main():
    #c3 = Connector(g3,g4)
    #print(g4.getOutput())
 
-'''TODO
-Create a series of gates that prove the following equality: 
-NOT (( A and B) or (C and D)) is that same as NOT( A and B ) and NOT (C and D).
+#TODO:
+#Create a series of gates that prove the following equality: 
+#NOT (( A and B) or (C and D)) is that same as NOT( A and B ) and NOT (C and D).
 
-Make sure to use some of your new gates in the simulation.'''
+#Make sure to use some of your new gates in the simulation.
 
    c4 = Connector(g1,g6)
    c5 = Connector(g2,g6)
