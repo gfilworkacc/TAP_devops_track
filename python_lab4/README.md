@@ -1,7 +1,7 @@
 ## Task 1:
 
 ### Sample input file:
-'''bash
+```bash
 "Name",     "Sex", "Age", "Height (in)", "Weight (lbs)"
 "Alex",       "M",   41,       74,      170
 "Bert",       "M",   42,       68,      166
@@ -21,11 +21,11 @@
 "Page",       "F",   31,       67,      135
 "Quin",       "M",   29,       71,      176
 "Ruth",       "F",   28,       65,      131
-'''
+```
 
 ### Module task 1:
 
-'''python
+```python
 #!/usr/bin/env python3
 import csv
 
@@ -37,11 +37,11 @@ def csv_mod(file_name):
             nl = ' '.join(line)
             ns = ' '.join(nl.split()).replace('"', '')
             print(ns)
-'''
+```
 
 ### Task 1:
 
-'''python
+```python
 #!/usr/bin/env python3
 import modt1
 import sys
@@ -60,11 +60,11 @@ def main():
     modt1.csv_mod(file_name)
 
 main()
-'''
+```
 
 ### Module task 2:
 
-'''python
+```python
 #!/usr/bin/env python3
 import random
 import csv
@@ -108,11 +108,11 @@ def csv_to_dict():
         reader = csv.DictReader(o, delimiter=':', skipinitialspace=True)
         for row in reader:
             print(row)
-'''
+```
 
 ### Task 2:
 
-'''python
+```python
 #!/usr/bin/env python3
 import modt2
 
@@ -122,11 +122,11 @@ def main():
     modt2.csv_to_dict()
 
 main()
-'''
+```
 
 ### Module task 4:
 
-'''python 
+```python 
 #!/usr/bin/env python3
 
 def bold(f):
@@ -143,11 +143,11 @@ def italic(f):
     def d():
         return "<i> " + f() + " </i>"
     return d
-'''
+```
 
 ### Task 4:
 
-'''python
+```python
 #!/usr/bin/env python3
 from modt4 import bold, underline, italic
 
@@ -161,11 +161,11 @@ def main():
     print(hello())
 
 main()
-'''
+```
 
 ### Task 5:
 
-'''python
+```python
 #!/usr/bin/env python3
 import sys
 
@@ -183,4 +183,4 @@ with open(pass_file, 'r') as f:
     for line in lines:
         if search_pattern in line.split(":")[0]:
             print(line.split(":")[4])
-'''
+```
