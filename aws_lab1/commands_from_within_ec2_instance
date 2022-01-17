@@ -1,0 +1,26 @@
+{
+    "Vpcs": [
+        {
+            "VpcId": "vpc-04fafae192bae8e5f", 
+            "InstanceTenancy": "default", 
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-00875acea98a8d29f", 
+                    "CidrBlock": "172.31.0.0/16", 
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ], 
+            "State": "available", 
+            "DhcpOptionsId": "dopt-0b4944a054c0da888", 
+            "OwnerId": "900990357819", 
+            "CidrBlock": "172.31.0.0/16", 
+            "IsDefault": true
+        }
+    ]
+}
+aws ec2 describe-vpcs --region eu-central-1
+aws s3 ls
+
+An error occurred (AccessDenied) when calling the ListBuckets operation: Access Denied
