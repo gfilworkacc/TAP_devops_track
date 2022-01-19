@@ -17,7 +17,7 @@ ssh -i /Users/gf/Documents/TAP_georgif.pem ec2-user@3.71.17.75 id; rm ~/.ssh/aut
 
 Using this guide for the recovery:
 
-[link](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/replacing-lost-key-pair.html#step-3-stop-original-instance)
+[https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/replacing-lost-key-pair.html#step-3-stop-original-instance]
 
 ![](recovery_instance)
 
@@ -68,6 +68,8 @@ Deleted the rule from the security group.
 
 ![](deleted_rule.png)
 
+Created SM role, attached and connected to the instance via SM:
+
 ![](role_created.png)
 
 ![](role_attached.png)
@@ -113,9 +115,9 @@ aws s3api create-bucket --bucket tap-georgif-bucket --region eu-central-1 --crea
 
 Creating policy, role and attach it to the instance:
 
-![](3_policy.png)
+![](s3_policy.png)
 
-![](3_role.png)
+![](s3_role.png)
 
 ![](role_to_instance.png)
 
