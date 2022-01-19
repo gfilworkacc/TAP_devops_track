@@ -1168,3 +1168,26 @@ ssh -i /Users/gf/Documents/TAP_gf_west.pem ec2-user@52.17.18.13 'id'
 ```bash
 uid=1000(ec2-user) gid=1000(ec2-user) groups=1000(ec2-user),4(adm),10(wheel),190(systemd-journal)
 ```
+
+### Task 5:
+
+Created VPC peering using this guide:
+
+https://docs.aws.amazon.com/vpc/latest/peering/create-vpc-peering-connection.html#create-vpc-peering-connection-local
+
+![](instance_central.png)
+
+![](instance_west.png)
+
+```bash
+ssh -i /Users/gf/Documents/TAP_georgif.pem ec2-user@18.159.207.61 ping -c 1 10.1.0.27
+```
+
+```bash
+PING 10.1.0.27 (10.1.0.27) 56(84) bytes of data.
+64 bytes from 10.1.0.27: icmp_seq=1 ttl=64 time=26.2 ms
+
+--- 10.1.0.27 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 26.211/26.211/26.211/0.000 ms
+```
