@@ -1,4 +1,4 @@
-## AWS lab 2:
+## AWS lab 3:
 
 ### Task 1:
 Machine creation:
@@ -19,9 +19,9 @@ Using this guide for the recovery:
 
 [https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/replacing-lost-key-pair.html#step-3-stop-original-instance]
 
-![](recovery_instance)
+![](recovery_instance.png)
 
-![](volume)
+![](volume.png)
 
 Executed commands on the recovery instance:
 
@@ -107,7 +107,7 @@ Accept-Ranges: bytes
 
 Created the log policy and attached it to existing role:
 
-![](log_policy)
+![](log_policy.png)
 
 Installed and configured awslogs daemon on the instance:
 
