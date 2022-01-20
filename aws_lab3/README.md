@@ -105,6 +105,42 @@ ETag: "60f0acca-dc0"
 Accept-Ranges: bytes
 ```
 
+Created the log policy and attached it to existing role:
+
+![](log_policy)
+
+Installed and configured awslogs daemon on the instance:
+
+```bash
+sudo yum update 
+
+sudo yum install -y awslogs
+
+sudo systemctl start awslogsd
+
+sudo systemctl status awslogsd
+
+sudo vi /etc/awslogs/awslogs.conf 
+```
+
+Appended the following to configuration file:
+
+```bash
+[/var/log/nginx/access.log]
+datetime_format = %d/%b/%Y:%H:%M:%S %z
+file = /var/log/nginx/access.log
+buffer_duration = 5000
+log_stream_name = access.log
+initial_position = end_of_file
+log_group_name = tap_georgif_log_group
+```
+
+```bash
+sudo systemctl restart awslogsd
+```
+
+Created a log group.
+
 ### Task 5:
 
 Creating s3 bucket:
