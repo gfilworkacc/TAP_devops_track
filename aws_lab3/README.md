@@ -180,5 +180,5 @@ crontab -l
 ```
    
 ```bash
-0 * * * * sudo cp -r /usr/share/nginx/html/ /var/s3-bucket-tap-georgif/
+0 * * * * aws s3 sync /usr/share/nginx/html s3://tap-georgif-bucket/html
 ```
