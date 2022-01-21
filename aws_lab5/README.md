@@ -41,3 +41,9 @@ Created the function and added the S3 trigger separately:
 Used pre-generated function code, Webhook URL and POST method example and altered the function code like this:
 
 ![](func.png)
+
+### Task 3:
+
+Created CloudFront distribution for the S3 bucket, which is available at https://dq7ocfuyw4rz4.cloudfront.net/index.html
+
+![](index_page.png)
