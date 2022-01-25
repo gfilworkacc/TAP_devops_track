@@ -16,18 +16,9 @@ Added the following commands to user data in the instance configuration:
 ```bash
 #!/bin/bash
 sudo yum update
-sudo amazon-linux-extras install -y epel
-sudo tee /etc/yum.repos.d/pgdg.repo<<EOF
-[pgdg13]
-name=PostgreSQL 13 for RHEL/CentOS 7 - x86_64
-baseurl=http://download.postgresql.org/pub/repos/yum/13/redhat/rhel-7-x86_64
-enabled=1
-gpgcheck=0
-EOF
-sudo yum install -y postgresql13 postgresql13-server
-sudo /usr/pgsql-13/bin/postgresql-13-setup initdb
-sudo systemctl enable --now postgresql-13
+sudo amazon-linux-extras install -y postgresql13
 ```
+![](instance_conf.png)
 
 ### Task 3:
 
