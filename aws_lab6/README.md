@@ -30,6 +30,16 @@ Managed to do ssh port forwarding via EC2 instance, although this could be wrong
 
 ![](port_forward.png)
 
+### Task 3 subsection b:
+
+Created new private instance, installed ssm plugin on my localhost and created a tunnel to the postgres db:
+
+![](db_instance.png)
+
+![](ssh_tunnel.png)
+
+![](connection.png)
+
 ### Task 4:
 
 Created the snapshot:
