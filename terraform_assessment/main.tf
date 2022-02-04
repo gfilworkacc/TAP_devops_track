@@ -250,12 +250,55 @@ resource "aws_db_instance" "tap_gf_rds_instance" {
   engine_version       = "13"
   instance_class       = "db.t3.micro"
   name                 = "gf_db"
-  username             = local.creds.username
-  password             = local.creds.password
+  username             = local.creds["username"]
+  password             = local.creds["password"]
   skip_final_snapshot  = true
   db_subnet_group_name = aws_db_subnet_group.tap_gf_sng.id
   vpc_security_group_ids = [aws_security_group.tap_gf_rds_sg.id]
   tags = {
     Name = "tap_georgif_rds_instance"
   }
+}
+
+#Elastic container service
+
+#Cluster creation
+
+resource "aws_ecs_cluster" "tap_gf_cluster" {
+  name = "tap_gf_cluster"
+
+  setting {
+    name  = "containerInsights"
+    value = "enabled"
+  }
+
+  tags = {
+    Name = "tap_gf_cluster"
+  }
+}
+
+#ECS policies and roles
+
+resource "aws_iam_role" "ecsTaskExecutionRole" {
+  name = "tap_gf_task_execution_role"
+  assume_role_policy = data.aws_iam_policy_document.assume_role_policy.json
+  tags = {
+    Name = "tap_gf_task_execution_role"
+  }
+}
+
+data "aws_iam_policy_document" "assume_role_policy"{
+  statement {
+    effect = "Allow"
+    principals {
+      identifiers = ["ecs-tasks.amazonaws.com"]
+      type        = "Service"
+    }
+    actions = ["sts:AssumeRole"]
+  }
+}
+
+resource "aws_iam_role_policy_attachment" "ecsTaskExecutionRole_policy" {
+  role = aws_iam_role.ecsTaskExecutionRole.name
+  policy_arn = "arn:aws:iam::aws:policy/service-role/AmazonEC2ContainerServiceforEC2Role"
 }
